@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-skeleton",
+  "version": "1.0.0",
+  "description": "A skeleton project for a Node.js server",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/derek-young/node_server_skeleton.git"
+  },
+  "author": "dthomasy@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.17.1",
+    "qr-image": "^3.2.0",
+    "sequelize": "^3.30.4",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {}
+}
